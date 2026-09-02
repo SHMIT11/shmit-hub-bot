@@ -7,20 +7,33 @@ const requiredConfig = [
   "PREMIUM_BOT_URL",
 ];
 
-const welcomeMessage = `<b>Добро пожаловать в SHMIT COMPANY!</b>
+const welcomeMessage = `Добро пожаловать в SHMIT COMPANY 🚀
 
-Здесь ты можешь:
+Цифровая экосистема, где всё необходимое собрано в одном месте.
 
-• пополнить Steam
-• купить Telegram Premium
-• купить Telegram Stars
-• оформить подписку на Spotify
-• самое главное — оформить подписку на VPN
-• создать AI-фотосессию
-• купить стильную одежду от питерского бренда Anteater
-• и многое другое
 
-Переходи в <b>SHMIT HUB Mini App</b> и выбирай то, что тебе по душе.`;
+Наш главный сервис:
+
+
+🔶 SHMIT VPN — Подключай VPN или бесплатный прокси для Telegram!
+
+
+А ещё в SHMIT HUB:
+
+
+• 🎮 Steam и игровые сервисы
+• ⭐ Telegram Premium & Stars
+• 🎵 Spotify и зарубежные подписки
+• 🤖 AI-фотосессии
+• 📥 Скачивание видео с любых платформ
+• 🔄 Конвертация файлов
+• 💳 Оплата зарубежных сервисов
+• 📈 Продвижение и подписчики
+• 👕 Anteater и цифровые товары
+• 🚀 И многое другое
+
+
+Открывай SHMIT HUB Mini App прямо сейчас 👇`;
 
 function getConfig(env) {
   const config = Object.fromEntries(
