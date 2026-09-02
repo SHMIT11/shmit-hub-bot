@@ -1,0 +1,10 @@
+name = "shmit-hub-bot"
+main = "worker.mjs"
+compatibility_date = "2026-09-02"
+
+[vars]
+MINI_APP_URL = "https://shmit11.github.io/shmit-glass-hub/"
+VPN_BOT_URL = "https://t.me/SHMIT_VPN2_bot"
+STEAM_BOT_URL = "https://t.me/SHMIT_PAY_BOT"
+STARS_BOT_URL = "https://t.me/SHMIT_PAY_BOT"
+PREMIUM_BOT_URL = "https://t.me/SHMIT_PAY_BOT"
