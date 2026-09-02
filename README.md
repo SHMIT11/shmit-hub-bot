@@ -1,5 +1,7 @@
 # SHMIT HUB Telegram Bot
 
+Deployment entry point: `worker.mjs`.
+
 Standalone Telegram bot for the SHMIT COMPANY `/start` menu. The bot uses Telegram long polling and is intended to run on Render as a **Background Worker**.
 
 For a free deployment, use the included `worker.mjs` as a Cloudflare Worker. It receives Telegram webhooks and does not need a permanently running server.
