@@ -22,15 +22,11 @@ const welcomeMessage = `Добро пожаловать в SHMIT COMPANY 🚀
 
 Цифровая экосистема, где всё необходимое собрано в одном месте.
 
-
 Наш главный сервис:
-
 
 🔶 SHMIT VPN — Подключай VPN или бесплатный прокси для Telegram!
 
-
 А ещё в SHMIT HUB:
-
 
 • 🎮 Steam и игровые сервисы
 • ⭐ Telegram Premium & Stars
@@ -42,7 +38,6 @@ const welcomeMessage = `Добро пожаловать в SHMIT COMPANY 🚀
 • 📈 Продвижение и подписчики
 • 👕 Anteater и цифровые товары
 • 🚀 И многое другое
-
 
 Открывай SHMIT HUB Mini App прямо сейчас 👇`;
 
