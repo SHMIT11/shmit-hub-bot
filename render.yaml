@@ -2,7 +2,7 @@ services:
   - type: worker
     name: shmit-hub-bot
     runtime: node
-    plan: free
+    plan: starter
     buildCommand: ""
     startCommand: "node bot.mjs"
     envVars:

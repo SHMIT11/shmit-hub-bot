@@ -14,7 +14,7 @@ Standalone Telegram bot for the SHMIT COMPANY `/start` menu. The bot uses Telegr
 Runtime: Node
 Build Command: (empty)
 Start Command: node bot.mjs
-Plan: Free
+Plan: Starter (Background Workers are not available on Render Free)
 ```
 
 6. Add `BOT_TOKEN` as a secret environment variable. Generate a new token in BotFather; never use a token that was previously shared in chat.
