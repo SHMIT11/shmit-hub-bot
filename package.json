@@ -1,0 +1,13 @@
+{
+  "name": "shmit-hub-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "SHMIT COMPANY Telegram bot menu",
+  "scripts": {
+    "start": "node bot.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

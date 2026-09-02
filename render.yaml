@@ -1,0 +1,20 @@
+services:
+  - type: worker
+    name: shmit-hub-bot
+    runtime: node
+    plan: free
+    buildCommand: ""
+    startCommand: "node bot.mjs"
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: MINI_APP_URL
+        value: https://shmit11.github.io/shmit-glass-hub/
+      - key: VPN_BOT_URL
+        value: https://t.me/SHMIT_VPN2_bot
+      - key: STEAM_BOT_URL
+        value: https://t.me/SHMIT_PAY_BOT
+      - key: STARS_BOT_URL
+        value: https://t.me/SHMIT_PAY_BOT
+      - key: PREMIUM_BOT_URL
+        value: https://t.me/SHMIT_PAY_BOT
