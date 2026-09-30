@@ -5,7 +5,8 @@
   "type": "module",
   "description": "SHMIT COMPANY Telegram bot menu",
   "scripts": {
-    "start": "node bot.mjs"
+    "start": "node bot.mjs",
+    "check": "node --check shared.mjs && node --check worker.mjs && node --check bot.mjs"
   },
   "engines": {
     "node": ">=22"

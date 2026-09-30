@@ -8,6 +8,12 @@ services:
     envVars:
       - key: BOT_TOKEN
         sync: false
+      - key: WELCOME_MEDIA_FILE_ID
+        sync: false
+      - key: WELCOME_MEDIA_URL
+        value: https://raw.githubusercontent.com/SHMIT11/shmit-hub-bot/main/assets/welcome.jpg
+      - key: WELCOME_MEDIA_TYPE
+        value: photo
       - key: MINI_APP_URL
         value: https://shmit11.github.io/shmit-glass-hub/
       - key: VPN_BOT_URL
